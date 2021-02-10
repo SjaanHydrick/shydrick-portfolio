@@ -1,0 +1,13 @@
+@font-face {
+  font-family: Neon;
+  src: url('../style/fonts/NEON____.TTF')
+}
+
+body {
+  margin: 0;
+  background-image: url('../style/assets/illuminated-spiral-neon-light-side-black-background.jpg');
+  background-repeat: none;
+  background-color: black;
+  background-size: 100%;
+  background-attachment: fixed;
+}
