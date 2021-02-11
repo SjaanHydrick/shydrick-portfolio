@@ -4,7 +4,7 @@ export default class MVB extends Component {
     render() {
         return (
             <div>
-                
+                MVB
             </div>
         )
     }

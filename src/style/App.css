@@ -1,13 +1,124 @@
 @font-face {
+  font-family: Rez;
+  src: url('../style/fonts/REZ.ttf');
+}
+
+@font-face {
+  font-family: Exthing;
+  src: url('../style/fonts/Exthing.ttf')
+}
+
+@font-face {
+  font-family: Base;
+  src: url('../style/fonts/base4.ttf')
+}
+
+@font-face {
   font-family: Neon;
-  src: url('../style/fonts/NEON____.TTF')
+  src: url('../style/fonts/Neon\ Planet\ Display.ttf')
+}
+
+html {
+  min-width: 1200px;
+  color: hotpink;
 }
 
 body {
   margin: 0;
+  margin-right: 20%;
   background-image: url('../style/assets/illuminated-spiral-neon-light-side-black-background.jpg');
   background-repeat: none;
   background-color: black;
   background-size: 100%;
   background-attachment: fixed;
+  text-align: center;
+}
+
+.landing {
+  height: 100%;
+  border: solid 1px transparent;
+}
+
+h1 {
+  margin-top: 15%;
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  font-family: Neon;
+  font-weight: 100;
+  letter-spacing: 5pt;
+  line-height: 3em;
+  color: white;
+  text-shadow: 0px 0px 60px hotpink;
+  font-size: 60pt;
+  border: double 10px white;
+  border-radius: 20px;
+  box-shadow: 0px 0px 60px hotpink, inset 0px 0px 60px hotpink;
+}
+
+.fed {
+  width: 60%;
+  margin-top: 5%;
+  margin-left: 25%;
+  margin-bottom: 0;
+  padding-bottom: 1%;
+  font-family: Rez;
+  color: white;
+  font-size: 50pt;
+}
+
+.bottom-border {
+  height: 0px;
+  width: 60%;
+  margin-top: 0;
+  margin-left: 25%;
+  border: double 5px hotpink;
+  border-radius: 10px;
+  box-shadow: 0px 0px 50px pink;
+}
+
+.downarrow {
+  margin-left: 40%;
+  position: absolute;
+  bottom: 0;
+  color: white;
+  text-shadow: 0px 0px 60px hotpink;
+  font-size: 40pt;
+}
+
+.bio {
+  height: 100%;
+  border: solid 1px transparent;
+}
+
+h2 {
+  margin-left: 5%;
+  width: 80%;
+  text-align: left;
+  font-family: Neon;
+  font-weight: 100;
+  font-size: 50pt;
+  letter-spacing: 5pt;
+  line-height: 1em;
+  color: white;
+  text-shadow: 0px 0px 40px hotpink;
+}
+
+.biop {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 0;
+  color: hotpink;
+  font-family: Base;
+  font-size: 20pt;
+  letter-spacing: 1pt;
+}
+
+
+.downarrow2 {
+  color: white;
+  text-shadow: 0px 0px 60px hotpink;
+  font-size: 40pt;
 }

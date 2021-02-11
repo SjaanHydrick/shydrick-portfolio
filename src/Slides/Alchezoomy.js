@@ -4,7 +4,7 @@ export default class Alchezoomy extends Component {
     render() {
         return (
             <div>
-                
+                Alchezoomy
             </div>
         )
     }
