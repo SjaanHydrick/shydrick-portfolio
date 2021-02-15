@@ -12,7 +12,7 @@ export default class Petreon extends Component {
             </div>
             <div className="info">
                 <img 
-                src="/Petreon.png" 
+                src="/Petreon1.png" 
                 alt="petreon" />
                 <div>
                     <p className="languages">React, Node.js, PostgreSQL, OAuth 2.0, AWS</p>

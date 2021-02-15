@@ -5,7 +5,7 @@ import Skills from './Slides/Skills';
 import MVB from './Slides/MVB';
 import Alchezoomy from './Slides/Alchezoomy';
 import Petreon from './Slides/Petreon';
-import Resume from './Slides/Resume';
+import Contact from './Slides/Contact';
 
 import './style/App.css';
 import { FullPage, Slide } from 'react-full-page';
@@ -36,7 +36,7 @@ export default class App extends Component {
             <Petreon />
           </Slide>
           <Slide>
-            <Resume />
+            <Contact />
           </Slide>
         </FullPage>
       </div>
