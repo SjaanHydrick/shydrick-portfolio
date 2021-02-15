@@ -90,7 +90,7 @@ h1 {
   font-size: 40pt;
 }
 
-.bio, .skills, .MVB {
+.bio, .skills, .MVB, .alchezoomy, .resume {
   height: 100%;
   border: solid 1px transparent;
 }
@@ -169,7 +169,7 @@ p {
 .mvb-links {
   margin-top: -1%;
   display: grid;
-  grid-template-columns: 30% 8% 8%;
+  grid-template-columns: 33% 8% 8%;
   column-gap: 2%;
   justify-content: start;
   align-items: center;
@@ -181,6 +181,7 @@ h4 {
   line-height: 1em;
   font-size: 20pt;
   text-align: left;
+  letter-spacing: 1pt;
 }
 
 a {
@@ -194,26 +195,53 @@ a:hover {
   transition-duration: 1s;
 }
 
-.mvb-github, .mvb-deployed {
+.proj-links {
   line-height: 1em;
   text-align: left;
   font-size: 18pt;
 }
 
-.mvb-info {
+.info {
   margin-bottom: 1%;
   display: grid;
   grid-template-columns: 60% 38%;
   column-gap: 4%;
 }
 
-.mvb-image {
+img {
   width: 100%;
   margin-left: 4%;
 }
 
-.mvb-desc {
-  font-size: 14pt;
+.languages {
+  font-weight: 600;
+  letter-spacing: 1pt;
+  color: hotpink;
+}
+
+.desc {
+  font-size: 13pt;
+  text-align: center;
   line-height: 1.5em;
   letter-spacing: 1pt;
+}
+
+.alchezoomy-links {
+  margin-top: -1%;
+  display: grid;
+  grid-template-columns: 18% 8% 8%;
+  column-gap: 2%;
+  justify-content: start;
+  align-items: center;
+  margin-left: 4%;
+}
+
+.petreon-links {
+  margin-top: -1%;
+  display: grid;
+  grid-template-columns: 13% 8% 8%;
+  column-gap: 2%;
+  justify-content: start;
+  align-items: center;
+  margin-left: 4%;
 }
