@@ -5,40 +5,53 @@ export default class Skills extends Component {
         return (
             <div className="skills">
                 <h2>Skills</h2>
-                <div className="techstack">
+                <div className="skills-data">
+                <div>
                     <h3>Tech Stack</h3>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>React</li>
-                        <li>Node.js</li>
-                        <li>Express</li>
-                        <li>Jest</li>
-                        <li>QUnit</li>
-                        <li>SQL</li>
-                        <li>VSCode</li>
-                        <li>Git</li>
-                        <li>Slack</li>
-                        <li>GitHub</li>
-                        <li>Heroku</li>
-                        <li>Postman</li>
-                        <li>Netlify</li>
-                        <li>Adobe InDesign</li>
-                        <li>Adobe Premiere</li>
-                    </ul>
-                    <h3>Personal Strengths</h3>
-                    <ul>
-                        <li>Problem Solving</li>
-                        <li>Attention to Detail</li>
-                        <li>Analytical Thinking</li>
-                        <li>Ability to Multitask</li>
-                        <li>Organzied Mindset</li>
-                        <li>Design Ability</li>
-                        <li>Excellent Time Management</li>
-                        <li>Written Communication</li>
-                    </ul>
+                      <div className="techstack">
+                      <label>
+                        <p>HTML</p>
+                        <p>CSS</p>
+                        <p>JavaScript</p>
+                        <p>React</p>
+                        <p>Node.js</p>
+                        <p>Express</p>
+                        <p>Jest</p>
+                        <p>QUnit</p>
+                        <p>SQL</p>
+                      </label>
+                      <label>
+                        <p>VSCode</p>
+                        <p>Git</p>
+                        <p>Slack</p>
+                        <p>GitHub</p>
+                        <p>Heroku</p>
+                        <p>Postman</p>
+                        <p>Netlify</p>
+                        <p>InDesign</p>
+                        <p>Premiere</p>
+                      </label>
+                    </div>
                 </div>
+                <div className="in-progress">
+                    <h3>In Progress</h3>
+                      <p>Redux</p>
+                      <p>AngularJS</p>
+                      <p>C#</p>
+                </div>
+                <div className="strengths">
+                    <h3>Personal Strengths</h3>
+                        <p>Problem Solving</p>
+                        <p>Attention to Detail</p>
+                        <p>Analytical Thinking</p>
+                        <p>Ability to Multitask</p>
+                        <p>Organzied Mindset</p>
+                        <p>Design Ability</p>
+                        <p>Excellent Time Management</p>
+                        <p>Written Communication</p>
+                </div>
+                </div>
+                <p className="downarrow3">&#8615;</p>
             </div>
         )
     }

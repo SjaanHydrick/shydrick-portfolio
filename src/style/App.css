@@ -19,7 +19,9 @@
 }
 
 html {
+  height: 100%;
   min-width: 1200px;
+  min-height: 500px;
   color: hotpink;
 }
 
@@ -80,7 +82,7 @@ h1 {
 }
 
 .downarrow {
-  margin-left: 40%;
+  margin-left: 39%;
   position: absolute;
   bottom: 0;
   color: white;
@@ -88,7 +90,7 @@ h1 {
   font-size: 40pt;
 }
 
-.bio {
+.bio, .skills, .MVB {
   height: 100%;
   border: solid 1px transparent;
 }
@@ -110,15 +112,108 @@ h2 {
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 0;
-  color: hotpink;
+  margin-bottom: 8%;
+  color: mistyrose;
   font-family: Base;
   font-size: 20pt;
   letter-spacing: 1pt;
 }
 
-
 .downarrow2 {
   color: white;
   text-shadow: 0px 0px 60px hotpink;
   font-size: 40pt;
+}
+
+.skills-data {
+  margin-left: 4%;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  column-gap: 3%;
+  font-family: Base;
+  font-size: 14pt;
+}
+
+h3 {
+  font-size: 20pt;
+  font-family: Base;
+  letter-spacing: 1pt;
+  text-decoration: underline;
+}
+
+.techstack {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 15px;
+  letter-spacing: .5pt;
+}
+
+p {
+  font-family: Base;
+  color: mistyrose;
+}
+
+.in-progress {
+  height: 50%;
+  border-left: solid 1px hotpink;
+  border-right: solid 1px hotpink;
+}
+
+.downarrow3 {
+  margin-top: -1%;
+  color: white;
+  text-shadow: 0px 0px 60px hotpink;
+  font-size: 40pt;
+}
+
+.mvb-links {
+  margin-top: -1%;
+  display: grid;
+  grid-template-columns: 30% 8% 8%;
+  column-gap: 2%;
+  justify-content: start;
+  align-items: center;
+  margin-left: 4%;
+}
+
+h4 {
+  font-family: Base;
+  line-height: 1em;
+  font-size: 20pt;
+  text-align: left;
+}
+
+a {
+  color: mistyrose;
+  text-decoration: underline hotpink;
+}
+
+a:hover {
+  text-decoration: underline rebeccapurple;
+  text-shadow: 0px 0px 25px pink;
+  transition-duration: 1s;
+}
+
+.mvb-github, .mvb-deployed {
+  line-height: 1em;
+  text-align: left;
+  font-size: 18pt;
+}
+
+.mvb-info {
+  margin-bottom: 1%;
+  display: grid;
+  grid-template-columns: 60% 38%;
+  column-gap: 4%;
+}
+
+.mvb-image {
+  width: 100%;
+  margin-left: 4%;
+}
+
+.mvb-desc {
+  font-size: 14pt;
+  line-height: 1.5em;
+  letter-spacing: 1pt;
 }
