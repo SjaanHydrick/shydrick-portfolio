@@ -6,9 +6,13 @@ export default class Resume extends Component {
             <div className="contact">
                 <h2>Contact</h2>
                 <div className="contact-data">
-                    <a href = "mailto: sjaanahydrick@gmail.com"><p>sjaanahydrick@gmail.com</p></a>
-                    <a href="https://github.com/SjaanHydrick"><p>GitHub</p></a>
-                    <a href="https://www.linkedin.com/in/sjaan-hydrick/"><p>LinkedIn</p></a>
+                    <a href = "mailto: sjaanahydrick@gmail.com">sjaanahydrick@gmail.com</a>
+                    <br />
+                    <br />
+                    <a href="https://github.com/SjaanHydrick">GitHub</a>
+                    <br />
+                    <br />
+                    <a href="https://www.linkedin.com/in/sjaan-hydrick/">LinkedIn</a>
                 </div>
             </div>
         )

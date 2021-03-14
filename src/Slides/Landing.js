@@ -6,9 +6,13 @@ export default class Landing extends Component {
         return (
             <div className="landing">
                 <h1>Sjaan Hydrick</h1>
-                <p className="fed">Front End Developer</p>
-                <div className="bottom-border"></div>
-                <p className="downarrow">&#8615;</p>
+                <div className="bottom-border">
+                    <p className="fed">Front End Developer</p>
+                </div>
+                <div>
+                    <span className="scroll">scroll</span>
+                    <span className="downarrow">&#8615;</span>
+                </div>
             </div>
         )
     }

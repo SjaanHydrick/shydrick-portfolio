@@ -7,8 +7,8 @@ export default class MVB extends Component {
                 <h2>Projects</h2>
                 <div className="mvb-links">
                     <h4>My Vampire Boyfriend</h4>
-                    <a href="https://github.com/SjaanHydrick/my-vampire-boyfriend"><p className="proj-links">GitHub</p></a>
-                    <a href="https://sjaanhydrick.github.io/my-vampire-boyfriend/"><p className="proj-links">Deployed</p></a>
+                    <a href="https://github.com/SjaanHydrick/my-vampire-boyfriend" className="proj-links">GitHub</a>
+                    <a href="https://sjaanhydrick.github.io/my-vampire-boyfriend/" className="proj-links">Deployed</a>
                 </div>
                 <div className="info">
                     <img 
@@ -23,7 +23,7 @@ export default class MVB extends Component {
 
                     </div>
                 </div>
-                <p className="downarrow3">&#8615;</p>
+                <p className="downarrow">&#8615;</p>
             </div>
         )
     }

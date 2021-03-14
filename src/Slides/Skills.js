@@ -39,7 +39,7 @@ export default class Skills extends Component {
                       <p>AngularJS</p>
                       <p>C#</p>
                 </div>
-                <div className="strengths">
+                <div>
                     <h3>Personal Strengths</h3>
                         <p>Problem Solving</p>
                         <p>Attention to Detail</p>
@@ -51,7 +51,7 @@ export default class Skills extends Component {
                         <p>Written Communication</p>
                 </div>
                 </div>
-                <p className="downarrow3">&#8615;</p>
+                <p className="downarrow">&#8615;</p>
             </div>
         )
     }

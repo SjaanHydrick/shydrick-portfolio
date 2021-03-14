@@ -22,7 +22,7 @@ export default class Petreon extends Component {
                     I came up with the concept, contributed 100% of the design, wrote the SQL tables, and did the testing while ensuring general functionality.</p>
                 </div>
             </div>
-            <p className="downarrow3">&#8615;</p>
+            <p className="downarrow">&#8615;</p>
         </div>
         )
     }

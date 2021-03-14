@@ -3,8 +3,8 @@ import Landing from './Slides/Landing';
 import Bio from './Slides/Bio';
 import Skills from './Slides/Skills';
 import MVB from './Slides/MVB';
-import Alchezoomy from './Slides/Alchezoomy';
 import Petreon from './Slides/Petreon';
+import LovingMonsters from './Slides/LovingMonsters';
 import Contact from './Slides/Contact';
 
 import './style/App.css';
@@ -30,10 +30,10 @@ export default class App extends Component {
             <MVB />
           </Slide>
           <Slide>
-            <Alchezoomy />
+            <Petreon />
           </Slide>
           <Slide>
-            <Petreon />
+            <LovingMonsters />
           </Slide>
           <Slide>
             <Contact />
