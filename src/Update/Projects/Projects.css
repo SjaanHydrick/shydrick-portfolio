@@ -1,0 +1,15 @@
+.projpg {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
+    background: linear-gradient(#aef5fb, #e1fffa);
+    background-color: #00001e;
+}
+
+.project-int {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}

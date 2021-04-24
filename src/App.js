@@ -1,44 +1,35 @@
 import React, { Component } from 'react';
-import Landing from './Slides/Landing';
-import Bio from './Slides/Bio';
-import Skills from './Slides/Skills';
-import MVB from './Slides/MVB';
-import Petreon from './Slides/Petreon';
-import LovingMonsters from './Slides/LovingMonsters';
-import Contact from './Slides/Contact';
-
-import './style/App.css';
-import { FullPage, Slide } from 'react-full-page';
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch
+} from 'react-router-dom';
+import About from './Update/About/About';
+import Projects from './Update/Projects/Projects';
+import Contact from './Update/Contact/Contact';
+import "./App.css"
 
 export default class App extends Component {
 
   render() {
     return (
       <div>
-        <FullPage
-          scrollOverflow={false}>
-          <Slide>
-            <Landing />
-          </Slide>
-          <Slide>
-            <Bio />
-          </Slide>
-          <Slide>
-            <Skills />
-          </Slide>
-          <Slide>
-            <MVB />
-          </Slide>
-          <Slide>
-            <Petreon />
-          </Slide>
-          <Slide>
-            <LovingMonsters />
-          </Slide>
-          <Slide>
-            <Contact />
-          </Slide>
-        </FullPage>
+        <Router>
+          <Switch>
+            <Route
+              exact path="/"
+              render={(routerProps) => <About {...routerProps} />}
+            />
+            <Route
+              exact path="/projects"
+              render={(routerProps) => <Projects {...routerProps} />}
+            />
+            <Route
+              exact path="/contact"
+              render={(routerProps) => <Contact {...routerProps} />}
+            />
+          </Switch>
+        </Router>
       </div>
     );
   }
