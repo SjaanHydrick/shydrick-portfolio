@@ -10,12 +10,10 @@
 }
 
 .contact-box {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5vh;
-    padding-top: 10vh;
-    display: block;
+    margin-left: 50%;
+    margin-top: 10%;
     text-align: center;
+    padding-top: 10vh;
     width: 50vw;
     height: 40vh;
     border: solid 3px #fc9e7a;

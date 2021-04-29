@@ -8,14 +8,19 @@ const Contact = () => {
             <Header 
                 main={'#f87e8d'}
                 shadow={'#e7d0b3'}/>
-            <div className="contact-box">
-            <a href = "mailto: sjaanahydrick@gmail.com">sjaanahydrick@gmail.com</a>
+            <div className="int">
+                <div className="contact-box">
+                    <a href = "mailto: sjaanahydrick@gmail.com">sjaanahydrick@gmail.com</a>
                     <br />
                     <br />
                     <a href="https://github.com/SjaanHydrick">GitHub</a>
                     <br />
                     <br />
                     <a href="https://www.linkedin.com/in/sjaan-hydrick/">LinkedIn</a>
+                </div>
+            </div>
+            <div className="mobile">
+                <p>Mobile Design Coming Soon!</p>
             </div>
             <div>
                 <div className="star3" id="st11"></div>

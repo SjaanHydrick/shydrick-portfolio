@@ -12,7 +12,8 @@
 .project-int {
     margin-top: 3vh;
     margin-right: 3vw;
-    height: 70vh;
+    height: 65vh;
+    width: 90vw;
     display: grid;
     grid-template-columns: 20% 80%;
     text-align: center;
@@ -41,6 +42,10 @@
 
 .projpg img {
     width: 100%;
+}
+
+.proj-display {
+    margin-left: 1.5vw;
 }
 
 .proj-links {
@@ -95,6 +100,8 @@
     border: solid 3px #f485a6;
     border-radius: 15px;
 }
+
+/* background elements */
 
 .star3 {
     position: fixed;

@@ -461,6 +461,10 @@ h4 {
     animation: twinkle3 10s infinite;
 }
 
+.mobile {
+    display: none;
+}
+
 @keyframes twinkle1 {
     0% {opacity: .8}
     20% {opacity: .3}
@@ -490,11 +494,7 @@ h4 {
 
 /* screen resizing */
 
-@media screen and (max-width: 1000px){
-    
-}
-
-@media screen and (max-width: 480px){
+@media screen and (max-width: 768px){
     h1 {
         font-size: 3.5rem;
         text-shadow: 0px .3rem #a8ebfa;
@@ -522,5 +522,16 @@ h4 {
     .contact {
         font-size: 3.75vw;
         width: 25vw;
+    }
+
+    .int {
+        display: none;
+    }
+
+    .mobile {
+        display: inline;
+        text-align: center;
+        color: white;
+        font-weight: 900;
     }
 }

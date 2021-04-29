@@ -147,6 +147,9 @@ const About = () => {
                     </div>
                 </div>
             </div>
+            <div className="mobile">
+                <p>Mobile Design Coming Soon!</p>
+            </div>
 
             <div className="flare1" id="fl11"></div>
             <div className="flare1" id="fl12"></div>

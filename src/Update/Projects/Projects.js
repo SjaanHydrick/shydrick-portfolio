@@ -121,21 +121,24 @@ const Projects = () => {
                 main={'#f485a6'}
                 shadow={'#6484a5'}
                 />
-            <div className="project-int">
-                <div>
-                        <button className="project-buttons" onClick={() => setProj('mvb')}>My Vampire Boyfriend</button>
-                        <br />
-                        <button className="project-buttons" onClick={() => setProj('petreon')}>Petreon</button>
-                        <br />
-                        <button className="project-buttons" onClick={() => setProj('lovmon')}>Loving Monsters</button>
-                        <br />
-                        <button className="project-buttons" onClick={() => setProj('gibb')}>Gibberish</button>
-                </div>
-                <div>
+            <div className="int">
+                <div className="project-int">
+                    <div>
+                            <button className="project-buttons" onClick={() => setProj('mvb')}>My Vampire Boyfriend</button>
+                            <br />
+                            <button className="project-buttons" onClick={() => setProj('petreon')}>Petreon</button>
+                            <br />
+                            <button className="project-buttons" onClick={() => setProj('lovmon')}>Loving Monsters</button>
+                            <br />
+                            <button className="project-buttons" onClick={() => setProj('gibb')}>Gibberish</button>
+                    </div>
                     <div className="proj-display">
                         <ProjectDisplay />
                     </div>
                 </div>
+            </div>
+            <div className="mobile">
+                <p>Mobile Design Coming Soon!</p>
             </div>
 
             <div className="star3" id="st11"></div>
