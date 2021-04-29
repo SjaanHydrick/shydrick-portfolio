@@ -107,7 +107,9 @@ const About = () => {
 
     return (
         <div className="aboutme">
-            <Header />
+            <Header 
+                main='#928bca' 
+                shadow='#a8ebfa' />
             <div className="int">
                 <div className="blurb">
                     <p>I am a full stack software engineer with a flair for front end development.

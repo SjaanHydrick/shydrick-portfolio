@@ -2,7 +2,7 @@ import React from 'react'
 import { useHistory } from 'react-router-dom';
 import './header.css'
 
-const Header = () => {
+const Header = ({ main, shadow }) => {
 
     const history = useHistory();
     
@@ -48,7 +48,7 @@ const Header = () => {
 
     return (
         <div className="header">
-            <h1>Sjaan Hydrick</h1>
+            <h1 style={{ color: `${main}`, textShadow: `0px .3rem ${shadow}`}}>Sjaan Hydrick</h1>
             <Buttons />
         </div>
     )
