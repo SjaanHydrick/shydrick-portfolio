@@ -20,6 +20,7 @@ h2 {
 }
 
 h3 {
+    font-size: 1.5vw;
     margin-top: 0;
     margin-bottom: 0;
     color: #928bca;
@@ -49,12 +50,10 @@ p {
 
 .blurb {
     width: 45vw;
-    height: 45vh;
     padding: 1em;
     display: block;
     margin-top: 3vh;
     margin-left: 4vw;
-    text-align: left;
     color: white;
     text-align: center;
     letter-spacing: 1pt;
@@ -64,7 +63,7 @@ p {
 }
 
 .blurb p {
-    font-size: 1.5rem;
+    font-size: 2.25vw;
 }
 
 .skills {
@@ -73,7 +72,6 @@ p {
     margin-left: auto;
     margin-right: auto;
     width: 40vw;
-    min-height: 40vw;
     background-color: #053f8a;
     border-radius: 25px;
     display: grid;
@@ -88,7 +86,7 @@ p {
 
 .skills-tabs {
     position: relative;
-    height: 14%;
+    height: 9vh;
     width: 40vw;
     display: grid;
     grid-template-columns: 10vw 10vw 10vw 10vw;
@@ -113,7 +111,7 @@ p {
     border-right: solid 1px #053f8a;
 }
 
-#xptab p, #strtab p {
+#techtab p, #xptab p, #strtab p {
     margin-top: 10%;
 }
 
@@ -125,13 +123,13 @@ p {
 
 .display-screen {
     width: 38vw;
-    margin-top: 30%;
+    margin-top: 10vh;
     margin-left: -29vw;
 }
 
 .skillshead {
     width: 100%;
-    font-size: 2.5vw;
+    font-size: 2vw;
     text-align: center;
     margin-bottom: 0;
     letter-spacing: 2pt;
@@ -147,6 +145,10 @@ p {
     text-align: center;
 }
 
+.techstack p {
+    font-size: 1.75vw;
+}
+
 .perstr {
     position: relative;
     display: grid;
@@ -157,7 +159,7 @@ p {
 
 .perstr p {
     font-family: Espera;
-    font-size: 1.85rem;
+    font-size: 2.25vw;
 }
 
 .xp {
@@ -171,7 +173,7 @@ h4 {
     color: #928bca;
     letter-spacing: .2vw;
     -webkit-text-stroke: 1px white;
-    font-size: 1.85rem;
+    font-size: 1.85vw;
 }
 
 .xp h5 {
@@ -179,7 +181,7 @@ h4 {
     color: #928bca;
     -webkit-text-stroke: .5px white;
     letter-spacing: .2vw;
-    font-size: 1rem;
+    font-size: 1.25vw;
 }
 
 .xp p {

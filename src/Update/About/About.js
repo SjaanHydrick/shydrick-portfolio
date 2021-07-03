@@ -17,30 +17,32 @@ const About = () => {
                             <p>HTML</p>
                             <p>CSS</p>
                             <p>JavaScript</p>
+                            <p>TypeScript</p>
                             <p>React</p>
                             <p>Redux</p>
-                            <p>TypeScript</p>
                             <p>Gatsby</p>
                             <p>Node.js</p>
                             <p>Express</p>
                         </label>
                         <label>
+                            <p>Socket.io</p>
                             <p>Jest</p>
                             <p>QUnit</p>
-                            <p>SQL</p>
+                            <p>Cypress</p>
+                            <p>PostgreSQL</p>
                             <p>VSCode</p>
                             <p>Git</p>
                             <p>Slack</p>
                             <p>GitHub</p>
-                            <p>GitLab</p>
                         </label>
                         <label>
+                            <p>GitLab</p>
                             <p>Jira</p>
                             <p>Heroku</p>
                             <p>Postman</p>
                             <p>Netlify</p>
-                            <p>InDesign</p>
-                            <p>Premiere</p>
+                            <p>Postman</p>
+                            <p>pgAdmin</p>
                         </label>
                     </div>
                 </div>
@@ -126,16 +128,16 @@ const About = () => {
                         <div id="techtab" onClick={() => {
                             setScreen('techstack')
                             }} >
-                            <p>Tech Stack</p>
+                            <p>Tech<br/>Stack</p>
                         </div>
                         <div id="strtab" onClick={() => {
                             setScreen('perstr')
                             }}>
-                            <p>Personal Strengths</p>
+                            <p>Personal <br/>Strengths</p>
                         </div>
                         <div id="xptab" onClick={() => {
                             setScreen('workexp')}}>
-                            <p>Work Experience</p>
+                            <p>Work <br/>Experience</p>
                         </div>
                         <div id="edtab" onClick={() => {
                             setScreen('edu')}}>
