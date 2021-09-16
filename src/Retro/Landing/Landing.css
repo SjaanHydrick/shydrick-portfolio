@@ -1,0 +1,358 @@
+.landing {
+    position: fixed;
+}
+
+.top-header {
+    width: 100%;
+    height: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: flex-start;
+    align-items: center;
+}
+
+.top-header img {
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+}
+
+.theme, .bio, .contact-info, .tech-stack, .tarot, .about, .projects, .work-ex {
+    position: absolute;
+    font-size: 10pt;
+}
+
+.contact-info {
+    padding-bottom: 10px;
+}
+
+.contact-info a {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.gibberish, .loving-monsters, .petreon, .mvb, .kickstand, .misc-jobs, .education {
+    position: absolute;
+    font-size: 8.5pt;
+}
+
+.tarot-int {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 90%;
+}
+
+.tarot h2 {
+    font-size: 95%;
+    height: 14pt;
+    margin-bottom: 10px;
+}
+
+.tarot p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 9pt;
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+.card {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 125px;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.bio p, .contact-info p {
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+}
+
+.about-int, .projects-int, .work-ex-int {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-around;
+    justify-content: flex-start;
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 90%;
+    height: 205px;
+}
+
+.theme p {
+    margin-top: 10px;
+}
+
+.theme-int {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 15px;
+}
+
+.theme-icon {
+    width: 85px;
+    height: 90px;
+    text-align: center;
+}
+
+.color-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.color-icons {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 85px;
+    margin-top: 10px;
+}
+
+.tiny-color {
+    margin-right: 2px;
+}
+
+.bottom-bar {
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.start {
+    position: absolute;
+    left: 10px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+}
+
+.time {
+    position: absolute;
+    right: 10px;
+    width: 135px;
+    height: 30px;
+    text-align: center;
+}
+
+.minimized {
+    position: absolute;
+    width: 80%;
+    margin-left: 125px;
+    height: 25px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.minimized-item {
+    width: 20em;
+    font-size: 8.5pt;
+    overflow: hidden;
+    padding-top: 5px;
+    text-align: center;
+    margin-right: 1em;
+}
+
+.folders {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 200px;
+    height: 70%;
+    text-align: center;
+    font-size: 8.5pt;
+}
+
+.folders p {
+    margin-top: 5px;
+}
+
+.about-folder, .projects-folder, .workex-folder {
+    height: 92px;
+    width: 110px;
+    margin-bottom: 50px;
+}
+
+.about-folder:hover, .projects-folder:hover, .workex-folder:hover, .minimized-item :hover, .start:hover, .tiny-color:hover, .theme-icon:hover, .top-header img:hover, .start-menu h1:hover, .start-menu h2:hover {
+    cursor: pointer;
+}
+
+.notepad {
+    height: 60px;
+    width: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.notepad-icon {
+    height: 100px;
+    width: 120px;
+    margin-right: 5em;
+}
+
+.notepad-icon p {
+    width: 120px;
+    height: 8pt;
+    font-size: 8.5pt;
+    text-align: center;
+}
+
+.gibberish-int, .loving-monsters-int, .petreon-int, .mvb-int {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 87%;
+    padding-bottom: 15px;
+    overflow: scroll;
+    text-align: center;
+    width: 98%;
+}
+
+.gibberish-int img, .loving-monsters-int img, .petreon-int img, .mvb-int img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 80%;
+    height: auto;
+}
+
+.gibberish-int h2, .loving-monsters-int h2, .petreon-int h2, .mvb-int h2 {
+    height: 30pt;
+}
+
+.gibberish-int p, .loving-monsters p, .petreon-int p, .mvb-int p {
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.gibberish-int a, .loving-monsters-int a, .petreon-int a, .mvb-int a {
+    margin-right: 20px;
+}
+
+.tech-stack-int {
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    height: 270px;
+    width: 95%;
+}
+
+.tech-stack-int div {
+    width: 50%;
+}
+
+.tech-stack-int p {
+    height: 15pt;
+}
+
+.kickstand-int, .misc-jobs-int, .education-int {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.kickstand-int {
+    width: 90%;
+}
+
+.misc-jobs-int, .education-int {
+    width: 95%;
+}
+
+.misc-jobs-int {
+    overflow: scroll;
+    height: 87%;
+}
+
+.kickstand-int h2, .misc-jobs-int h2, .kickstand-int p, .kickstand-int li, .kickstand-int ul, .misc-jobs-int h2, .misc-jobs-int h3, .misc-jobs-int li, .misc-jobs-int ul, .misc-jobs-int p, .education-int h2, .education-int p, .education-int h3 {
+    height: auto;
+}
+
+.start-menu, .start-container {
+    position: absolute;
+    bottom: 0;
+    height: 300px;
+    width: 260px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-right: 10px;
+    padding-bottom: 40px;
+}
+
+.start-menu h1 {
+    font-size: 17pt;
+    height: 40px;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.favorites, .settings {
+    position: absolute;
+    margin-left: 260px;
+    height: 300px;
+    top: 0;
+}
+
+.documents {
+    position: absolute;
+    width: 370px;
+    height: 300px;
+    margin-left: 260px;
+    top: 0;
+}
+
+.favorites h2, .settings h2 {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 12pt;
+}
+
+.documents h2 {
+    font-size: 12pt;
+    height: 12pt;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.shut-down {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    z-index: 3;
+    animation: shutdown 5s;
+}
+
+.shut-container {
+    z-index: 4;
+    height: 100vh;
+    width: 100vw;
+}
+
+@keyframes shutdown {
+    from {
+        width: 100vw;
+        height: 0;
+    }
+    to {
+        width: 100vw;
+        height: 100vh;
+    }
+}
