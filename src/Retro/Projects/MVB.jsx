@@ -38,7 +38,7 @@ const MVB = ({ background, fileName, hidden, setHidden, minimized, setMinimized,
                     <p style={{ color: `${color}`}}>My Vampire Boyfriend is a choose-your-own adventure survival-horror game disguised as a dating simulator. It boasts a unique and beautiful gaming experience with 54 individual scenarios for the player to encounter. 
                     <br />
                     <br />
-                    Build using HTML, CSS, and vanilla JavaScript.
+                    Built using HTML, CSS, and vanilla JavaScript.
                     <br />
                     <br />
                     Built by a team of 4 over 4 days.

@@ -36,10 +36,10 @@ const Gibberish = ({ background, fileName, hidden, setHidden, minimized, setMini
                 <div className="gibberish-int">
                     <img src='/GibberishPix.png' alt="Gibberish" />
                     <h2 style={{color: `${color}`}}>Gibberish</h2>
-                    <p style={{ color: `${color}`}}>Gibberish is an online, multiplayer, turn-based word game in which a player scores points by forming nonsense words that sound like English, but aren't! A custom-build word detection AI analyzed all 267,751 words in the Scrabble dictionary and determines whether the submitted word exists and, if not, how probable the letter combinations are.
+                    <p style={{ color: `${color}`}}>Gibberish is an online, multiplayer, turn-based word game in which a player scores points by forming nonsense words that sound like English, but aren't! A custom-built word detection AI analyzes all 267,751 words in the Scrabble dictionary and determines whether the submitted word exists and, if not, how probable the letter combinations are.
                     <br />
                     <br />
-                    Build using React, Node.js, CSS, and Socket.io.
+                    Built using React, Node.js, CSS, and Socket.io.
                     <br />
                     <br />
                     Built by a team of 3 over 48 hours for HackOR. Winner of Best UI/UX and 3rd Best Overall.

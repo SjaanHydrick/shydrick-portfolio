@@ -40,7 +40,7 @@ const LovingMonsters = ({ background, fileName, hidden, setHidden, minimized, se
                     <p style={{ color: `${color}`}}>Loving Monsters blends life simulators, to-do lists, and a splash of the supernatural to create a unique collaborative group environment. Users can interact in real time using asynchronous messaging and one-on-one chat features while exploring custom environments and interacting with multiple unique NPCs. 
                     <br />
                     <br />
-                    Build using React, Node.js, CSS, and Socket.io.
+                    Built using React, Node.js, CSS, and Socket.io.
                     <br />
                     <br />
                     Built by a team of 3 over 10 days.

@@ -51,7 +51,7 @@ const MiscJobs = ({ background, fileName, hidden, setHidden, minimized, setMinim
                         <li>Organization</li>
                     </ul>
                     <br />
-                    <p>Sold Sleep Number mattresses, bedding, and other sleep-centric products. Maintained a top 10 rank of salespeople within the district for 11 months. Regularly assisted other team members with closing due to excellent recall capabilities.</p>
+                    <p>Sold Sleep Number mattresses, bedding, and other sleep-centric products. Maintained a top 10 rank of salespeople within the district for 11 months. Regularly assisted other team members with closing sales due to excellent recall capabilities.</p>
                     <br />
                     <br />
                     <h3>Fig Jam Studio</h3>

@@ -46,8 +46,8 @@ const Education = ({ background, fileName, hidden, setHidden, minimized, setMini
                     <br />
                     <h3>Columbia College</h3>
                     <p>2007 - 2011</p>
-                    <p>English Major, History Minor</p>
                     <p>Columbia, SC</p>
+                    <p>English Major, History Minor</p>
                 </div>
             </div>
         </Draggable>

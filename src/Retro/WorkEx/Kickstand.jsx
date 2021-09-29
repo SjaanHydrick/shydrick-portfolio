@@ -44,7 +44,7 @@ const Kickstand = ({ background, fileName, hidden, setHidden, minimized, setMini
                     <br />
                     <br />
                     <ul>
-                        <li>Assisted in the building and maintenance a variety of websites for clients with unique needs.</li>
+                        <li>Assisted in the building and maintenance of a variety of websites for clients with unique needs.</li>
                         <li>Created design systems and design components via Storybook for use across multiple sites.</li>
                         <li>Analyzed and fixed bugs in code. Wrote and updated tests as needed.</li>
                         <li>Participated in code review of team member's code and suggested changes as needed.</li>

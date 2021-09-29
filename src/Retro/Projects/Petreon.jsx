@@ -39,13 +39,13 @@ const Petreon = ({ background, fileName, hidden, setHidden, minimized, setMinimi
                     <p style={{ color: `${color}`}}>Petreon is a social media platform all about pets! Users create profiles for their fuzzy friends and upload photos and blogs to keep their followers updated on the secret lives of pets. Followers can like images, leave comments, and even send tips for treats.
                     <br />
                     <br />
-                    Build using React, Node.js, CSS, PostgreSQL, OAuth 2.0, and AWS.
+                    Built using React, Node.js, CSS, PostgreSQL, OAuth 2.0, and AWS.
                     <br />
                     <br />
                     Built by a team of 3 over 10 days.
                     <br />
                     <br />
-                    I came up with the concept, contrubuted 100% of the design, wrote the SQL tables, did the testing, and ensured front-end functionality.</p>
+                    I came up with the concept, contributed 100% of the design, wrote the SQL tables, did the testing, and ensured front-end functionality.</p>
                     <span><a style={{color: `${color}`}} href="https://github.com/Alchemy-Petreon" target="_blank" rel="noreferrer">GitHub</a><a style={{color: `${color}`}} href="https://petreon.netlify.app/" target="_blank" rel="noreferrer">Website</a></span>
                 </div>
             </div>
